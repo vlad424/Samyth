@@ -1,0 +1,37 @@
+.RegPage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reg-menu {
+    width: 20%;
+    height: 25%;
+    background-color: #fff;
+    flex-direction: column;
+}
+.header-op {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_op {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main-op-input {
+    width: 80%;
+    height: 20%;
+    border-radius: 20px;
+}
+.footer-op {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
