@@ -11,6 +11,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<RegPage/>}/>
+        <Route path="*" element={<NotFoundPage/>}/>
       </Routes>
     </div>
   );
