@@ -33,7 +33,7 @@ const RegPage = () => {
                             log in
                         </button>
                         <button className="continue">
-                            continue
+                            <Link to="/feed">continue</Link>
                         </button>
                     </span>
                     <span className="footer-down">
