@@ -30,7 +30,7 @@ const RegPage = () => {
                 <span className="footer-op">
                     <span className="footer-upper">
                         <button className="continue">
-                            log in
+                            <Link to="/auth">log in</Link>
                         </button>
                         <button className="continue">
                             <Link to="/feed">continue</Link>

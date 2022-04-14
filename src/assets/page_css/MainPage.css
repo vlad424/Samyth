@@ -15,8 +15,8 @@
 }
 .left-side {
     display: flex;
-    flex-direction: column;
     width: 25%;
+    height: 100%;
 }
 .content-side {
     display: flex;

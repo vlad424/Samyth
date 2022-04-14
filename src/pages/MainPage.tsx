@@ -2,9 +2,9 @@ import React from 'react';
 import eye from "../assets/img/eye.svg";
 import { Link } from 'react-router-dom';
 import LeftSide from '../components/MainPageComponents/LeftSide';
+import ContentSide from '../components/MainPageComponents/ContentSide';
 
 import '../assets/page_css/MainPage.css'
-
 
 const MainPage = () => {
     return (
@@ -13,12 +13,10 @@ const MainPage = () => {
                 <main className="main">
                     <aside className="left-side">
                         {/* <object data={eye} type="image/svg+xml" width="50" height="50"></object> */}
-                        <Link to="/etc">
-                            <LeftSide/>
-                        </Link>
+                        <LeftSide/>
                     </aside>
                     <div className="content-side">
-
+                        <ContentSide/>
                     </div>
                     <aside className="right-side">
 
