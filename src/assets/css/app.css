@@ -11,6 +11,9 @@ button {
     background-color: transparent;
     cursor: pointer;
 }
+a { text-decoration: none; }
+ul { margin-left: 0; padding-left: 0;}
+li { list-style-type: none;}
 body {
     width: 100vw;
     height: 100vh;
