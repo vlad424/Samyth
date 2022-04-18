@@ -27,7 +27,10 @@ const ContentSide = () => {
           } else {
             return( 
               <div className="main-post-text">
-                {el.content}
+                <div className="post-header">
+                  <div className="post-up">{el.logo}</div>
+                  <div className="post-down">{el.content}</div>
+                </div>
               </div>
             );
           }

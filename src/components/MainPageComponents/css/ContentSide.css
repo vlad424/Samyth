@@ -1,9 +1,39 @@
 .main-content-side {
     height: 100%;    
 }
-.main-post {
+.main-header {
+    height: 5%;
+}
+.main-content {
+    height: 95%;
+}
+.main-post-allin {
     width: 100%;
     height: 33%;
     display: flex;
+    flex-direction: column;
     background-color: tomato;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.main-post-text {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    background-color: tomato;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.post-header {
+    height: 30%;
+
+}
+.post-up {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: grey;
+}
+.post-body {
+    height: 70%;
 }
