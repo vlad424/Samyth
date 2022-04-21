@@ -1,0 +1,9 @@
+.main-chat-side {
+    height: 100%;    
+}
+.chat-header {
+    height: 5%;
+}
+.chat-content {
+    height: 95%;
+}
