@@ -7,3 +7,40 @@
 .chat-content {
     height: 95%;
 }
+.message-seen {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: #DCDEDB;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    margin-top: 1%;
+}
+.message-n {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: #DCDEDB;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    margin-top: 1%;
+}
+.message-meta {
+    display: flex;
+    width: 15%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.message-logo {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    background-color: grey;
+}
+.message-body {
+    margin-top: 1%;
+}
+.message-text {
+    margin-top: 5%;
+}

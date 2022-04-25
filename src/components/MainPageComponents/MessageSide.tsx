@@ -3,10 +3,19 @@ import React from 'react';
 import './css/MessageSide.css'
 
 const MessageSide = () => {
+    let name = "null"; 
+    let url = "null";
+    const message_text = {
+        seen: [
+            {text: 'salut, nous sommes le support samyth, il y a une activité suspecte sur votre page. Pendant la semaine, vous ne pourrez pas accéder à notre service. Tout le meilleur support samyth'},
+            {text: 'değerlendirilmek üzere gönderdiğiniz mektubunuzu aldık (04.17.2022). Dikkatlice analiz ettik ve uygun bir aday olduğunuzu size bildirmekten memnuniyet duyuyoruz.'}
+        ]
+    }
+
     const messages = {
         seen: [
-            {content: "salut, nous sommes le support samyth, il y a une activité suspecte sur votre page. Pendant la semaine, vous ne pourrez pas accéder à notre service. Tout le meilleur support samyth", activity: false},
-            {content: "değerlendirilmek üzere gönderdiğiniz mektubunuzu aldık (04.17.2022). Dikkatlice analiz ettik ve uygun bir aday olduğunuzu size bildirmekten memnuniyet duyuyoruz.", activity: true}
+            {content: "", activity: false, logo: url, name: name},
+            {content: "123", activity: true, logo: url, name: name}
         ]
     }
 
@@ -20,14 +29,26 @@ const MessageSide = () => {
                     if(el.activity) {
                         return(
                             <div className="message-seen">
-                                {el.content}
+                                <div className="message-meta">
+                                    <img src={el.logo} alt='' className='message-logo'/>
+                                </div>
+                                <div className="message-body">
+                                    <div className="message-name">{el.name}</div>
+                                    <div className="message-text">{el.content}</div>
+                                </div>
                             </div>
                         );
                     }
                     else {
                         return(
                             <div className="message-n">
-                                {el.content}
+                                <div className="message-meta">
+                                    <img src={el.logo} alt='' className='message-logo'/>
+                                </div>
+                                <div className="message-body">
+                                    <div className="message-name">{el.name}</div>
+                                    <div className="message-text">{el.content}</div>
+                                </div>
                             </div>
                         );
                     }
