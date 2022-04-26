@@ -23,7 +23,7 @@ function App() {
         <Route path="/groops" element={<GroopsPage/>}/>
         <Route path="/music" element={<MusicPage/>}/>
         <Route path="/feed" element={<FeedPage/>}/>
-        <Route path="/profile/" element={<ProfilePage/>}/>
+        <Route path="/id/1" element={<ProfilePage/>}/>
       </Routes>
     </div>
   );

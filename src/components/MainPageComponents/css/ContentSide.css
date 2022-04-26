@@ -12,16 +12,16 @@
     height: 33%;
     display: flex;
     flex-direction: column;
-    background-color: tomato;
-    border-radius: 15px;
+    background-color: #DCDEDB;
+    border-radius: 7.5px;
     margin-top: 5px;
 }
 .main-post-text {
     width: 100%;
     height: 15%;
     display: flex;
-    background-color: tomato;
-    border-radius: 15px;
+    background-color: #DCDEDB;
+    border-radius: 7.5px;
     margin-top: 5px;
 }
 .post-header {

@@ -8,7 +8,7 @@ const LeftSide = () => {
   return (
     <div className="main-left-side">
       <ul className="left-menu">
-        <Link to={`/profile/${id}`}>
+        <Link to={`/id/${id}`}>
           <li className="menu-element">profile</li>
         </Link>
         <Link to="/feed">
