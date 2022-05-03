@@ -1,0 +1,11 @@
+[
+  {"name": "Ivan Fedrov", "phone": "827-29-22032", "city": "Moscow"},
+  {"name": "Sasha Avgeva", "phone": "817-52-56239", "city": "Krasnoyarsk"},
+  {"name": "Masha Kucheva", "phone": "081-50-23231", "city": "Iran"},
+  {"name": "Egor Barganov", "phone": "034-35-56805", "city": "Antaliya"},
+  {"name": "Aleksandr Isaev", "phone": "702-27-46616", "city": "Vladivostok"},
+  {"name": "Sergey Zikov", "phone": "215-54-78639", "city": "Moscow"},
+  {"name": "Ulyana Gorbacheva", "phone": "726-39-43441", "city": "Detroit"},
+  {"name": "Matvei Kulikov", "phone": "742-20-83635", "city": "Cuba"},
+  {"name": "Denis Melnikov", "phone": "803-69-09907", "city": "Petropavlovsk"},  
+]

@@ -24,15 +24,21 @@ const PorfileSide = () => {
                     <div className="profile-meta">
                         <div className="profile-name">{user_data.name}</div>
                         <div className="profile-all-info">
-                            <p className="user-city">{user_data.city}</p>
-                            <p className="user-phone">{user_data.phone}</p>
+                            <p className="user-city">
+                                <span className="city">city:</span>
+                                <span className="city-var">{user_data.city}</span>
+                            </p>
+                            <p className="user-phone">
+                                <span className="phone">phone:</span>
+                                <span className="phone-var">{user_data.phone}</span> 
+                            </p>
                         </div>
                         <div className="profile-all-prop">
                             <div className="user-groops">
-                                {user_data.groops} groops
+                                groops {user_data.groops}
                             </div>
                             <div className="user-music">
-                                {user_data.numb_music} music
+                                music {user_data.numb_music}
                             </div>
                         </div>
                     </div>
